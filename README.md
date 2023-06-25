@@ -1,3 +1,0 @@
-# Tricotix
-
-My Agency Website.
