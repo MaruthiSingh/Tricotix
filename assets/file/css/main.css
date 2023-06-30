@@ -5759,10 +5759,6 @@ a {
   .font-wrapper {
     width: auto;
   }
-
-  .ic-heading {
-    font-size: 20rem;
-  }
 }
 
 @media screen and (max-width: 479px) {
