@@ -2137,7 +2137,7 @@ a {
 }
 
 .section.projects {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), #000), url("./assets/Images/2/6418242686bf046ad58ee8ff_Projects.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), #000), src("https://raw.githubusercontent.com/MaruthiSingh/Tricotix/main/assets/Images/2/6418242686bf046ad58ee8ff_Projects.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
