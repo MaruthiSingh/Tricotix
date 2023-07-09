@@ -2124,7 +2124,7 @@ a {
 }
 
 .section.services {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/assets/Images/2/6418242686bf04ba228ee8cc_H2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://raw.githubusercontent.com/MaruthiSingh/Tricotix/main/assets/Images/2/6418242686bf04ba228ee8cc_H2.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -2138,7 +2138,7 @@ a {
 }
 
 .section.blog {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(255, 255, 255, 0) 50%), url("/assets/Images/2/6418242686bf0439a98ee904_milad-fakurian-WUtT8cGRPog-unsplash.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(255, 255, 255, 0) 50%), url("https://raw.githubusercontent.com/MaruthiSingh/Tricotix/main/assets/Images/2/6418242686bf0439a98ee904_milad-fakurian-WUtT8cGRPog-unsplash.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
