@@ -10,10 +10,6 @@ body {
 
 /* Custom */
 
-.ic-heading {
-  font-size: 4rem;
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -2015,12 +2011,14 @@ textarea.w-input, textarea.w-select {
 }
 
 .w-layout-grid {
-  grid-row-gap: 16px;
   grid-column-gap: 16px;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+  justify-content: end;
+  align-items: start;
+  justify-items: center;
 }
 
 body {
@@ -2100,10 +2098,6 @@ a {
   background-color: #141414;
 }
 
-.section.digital-agency-section {
-  padding-bottom: 300px;
-}
-
 .section.blog-stories-section {
   padding-top: 400px;
 }
@@ -2144,7 +2138,7 @@ a {
 }
 
 .section.blog {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(255, 255, 255, 0) 50%), url("../6418242686bf0439a98ee904_milad-fakurian-WUtT8cGRPog-unsplash.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(255, 255, 255, 0) 50%), url("/assets/Images/2/6418242686bf0439a98ee904_milad-fakurian-WUtT8cGRPog-unsplash.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -2408,7 +2402,7 @@ a {
 }
 
 .introduction-content {
-  max-width: 810px;
+  max-width: 920px;
   grid-row-gap: 40px;
   flex-direction: column;
   align-items: flex-start;
@@ -2502,7 +2496,6 @@ a {
 .digital-agency-section {
   color: #000;
   background-color: #fff;
-  padding-bottom: 150px;
   padding-left: 74px;
   padding-right: 74px;
 }
@@ -2754,7 +2747,6 @@ a {
 
 .footer-grid {
   width: 100%;
-  grid-column-gap: 180px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -2793,7 +2785,7 @@ a {
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px 50px 70px;
+  padding: 50px 50px 50px;
   display: flex;
 }
 
@@ -2912,8 +2904,6 @@ a {
 .menu-grid {
   width: 100%;
   grid-column-gap: 100px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 200px;
 }
 
@@ -3228,7 +3218,7 @@ a {
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
-  padding: 300px 50px;
+  padding: 100px 50px;
   display: flex;
 }
 
@@ -3422,7 +3412,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-image: url("../6418242686bf04861a8ee8fa_Team.jpg");
+  background-image: url("/assets/Images/2/6418242686bf04861a8ee8fa_Team.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3669,14 +3659,12 @@ a {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 300px 222px 300px 222px;
+  padding: 40px 222px 100px 222px;
   display: flex;
 }
 
 .container-services.footer {
   align-items: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 .services-header {
@@ -5102,7 +5090,7 @@ a {
 
   .container-mg-50px.padding-200px {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
 
   .title-wrapper {
